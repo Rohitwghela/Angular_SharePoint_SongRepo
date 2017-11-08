@@ -1,0 +1,293 @@
+﻿/* Grid container */
+.grid, .main {
+  position: relative;width:1170px;
+  margin:0px auto;
+}
+
+/* Overlay */
+
+
+/* Grid item */
+a.grid__item{text-decoration:none}
+.grid__item {
+  padding: 30px 20px;
+  position: relative;
+  color: inherit;
+  background: #fff;
+  min-height: 150px;
+  cursor: pointer;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* Grid item "border" */
+.grid__item::before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  right: 55px;
+  bottom: 0px;
+  left: 55px;
+  border-bottom: 1px solid rgba(74, 74, 74, 0.075);
+}
+
+.grid__item * {
+  z-index: 10;
+}
+
+/* grid item element and full content element styles */
+.title {
+  margin: 0;
+
+ 
+}
+
+.title--preview {
+/*
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  */
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+h2.title--preview{margin:0px;  font-size: 14px !important; text-align:center;font-weight:500; text-transform:uppercase; margin-bottom:20px; text-shadow:0px 0px 3px rgba(255,255,255,0.6); position:relative}
+
+
+
+
+/* main content */
+.content {
+  position: absolute;
+  top: 0 !important;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  height: 0;
+  /* Avoid second scroll bar in Chrome! */
+ /*visibility: hidden;*/
+  z-index: 400;
+  overflow: hidden;
+}
+
+.content.content--show {
+  height: 80vh;
+  pointer-events: auto;
+  visibility: visible;
+  background-color:#fff;
+  box-shadow:0px 1px 9px 0px rgba(0, 0, 0, 0.12)
+}
+
+/* scroll helper wrap */
+
+
+
+@media screen and (min-width: 900px) {
+  .grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  /* 2 columns */
+  .grid__item {
+    width: 50%;
+    border: none;
+  }
+
+  .grid__item::before {
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    border: 1px solid rgba(74, 74, 74, 0.075);
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+	box-shadow:0px 1px 9px 0px rgba(0, 0, 0, 0.12);
+	background-color:#f5f5f5
+  }
+
+  .grid__item:hover::before,
+  .grid__item:focus::before {
+    border: 1px solid rgba(129, 196, 131, 0.5);
+	background-color:#fff; 
+  }
+
+  .grid__item--loading.grid__item::before {
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* 3 columns */
+  .grid__item {
+    width: 19%;
+	margin:5px 10px 5px 0
+  }
+}
+@media screen and (min-width: 1500px) {
+  /* 4 columns */
+  .grid__item {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1800px) {
+  /* 5 columns */
+  .grid__item {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 2100px) {
+  /* 6 columns */
+  .grid__item {
+    width: 16.66%;
+  }
+}
+/* small screen changes for sidebar (it becomes an off-canvas menu) */
+
+
+/*# sourceMappingURL=style1.css.map */
+.close-button{margin: 15px 25px 0px 0px !important;cursor: pointer;height:28px;width:28px;font-weight: bold;font-size: 16px;font-family: verdana;border-radius: 50%;border: 2px solid #4A4A4A;text-align: center;line-height: 25px;color:#4A4A4A;}
+.close-button:before{content:"X"}
+
+.cpp-head{font-weight:200; margin:10px 0 20px 45px; letter-spacing:-1px}
+.title--full>img{ margin:10px 20px; width:32px; height:auto}
+h2.title--full {border-bottom:1px solid #dadada; width:100%;font-weight:300}
+.RedBrd-head{border-top:4px solid #da291c;color:#da291c}
+.OceanBlueBrd-head{border-top:4px solid #00bcd4;color:#00bcd4}
+.BrownBrd-head{border-top:4px solid #795548;color:#795548}
+.BlueBrd-head{border-top:4px solid #3f51b5;color:#3f51b5}
+.GreenBrd-head{border-top:4px solid #4caf50;color:#4caf50}
+.BlueGreyBrd-head{border-top:4px solid #607d8b;color:#607d8b}
+.TealBrd-head{border-top:4px solid #009688;color:#009688}
+.content__item{
+display: none;
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background: white;	
+	box-shadow:0px 1px 3px rgba(0,0,0,0.35);
+	transition:opacity 0.6s;
+	overflow:auto;
+	border:1px solid rgba(0,0,0,0.35);
+	border-top:0px
+	
+}
+
+
+
+/* Pulse Grow */
+@-webkit-keyframes meta--preview {
+  to {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+@keyframes meta--preview {
+  to {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+.meta--preview,.close-button {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.meta--preview:hover, .meta--preview:focus, .meta--preview:active, .close-button:hover {
+  -webkit-animation-name: meta--preview;
+  animation-name: meta--preview;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+.content-area{display:table;width:95%;padding:10px 20px;font-size:14px;position:absolute;left:2%}
+.content-area ul.arrow li{list-style-image:url(../images/list-arrow.png); margin-left:20px; line-height:25px}
+
+.blue-col,.comp-off-col, .LeaveBoxes, .EarnedLeaveBox,.CasualLeaveBox,.maternityBox, .ParentBox, .parkingBox, .nightdrop
+{ padding:0px;width:48%; float:left;border-radius:3px;box-shadow:0 2px 2px 0 rgba(0, 0, 0, .05), 0 1px 4px 0 rgba(0, 0, 0, .08), 0 3px 1px -2px rgba(0, 0, 0, .2); background-color:#F7F7F7}
+
+.blue-col h5, .comp-off-col h5, .nightdrop h5, .LeaveBoxes h5, .EarnedLeaveBox h5, .CasualLeaveBox h5,.maternityBox h5, .withoutLeave h5,
+.ParentBox h5,.parkingBox h5
+{ padding:10px; margin:0px;color:#fff;font-size:16px; text-shadow:0px 2px 1px rgba(0,0,0,0.3)}
+
+.blue-col .text-circle, .comp-off-col  .text-circle, .nightdrop .text-circle, .LeaveBoxes .text-circle, .EarnedLeaveBox .text-circle, .CasualLeaveBox .text-circle, .maternityBox .text-circle,.ParentBox .text-circle,.parkingBox .text-circle
+
+{background: #fff;width: 24px;height: 24px;display: inline-block;text-align: center;line-height: 24px;margin: 0 10px 0 0;box-shadow:0px 3px 1px rgba(0,0,0,0.2) }
+
+.blue-col .text-circle{ color: #00bcd4;}
+.blue-col {border:1px solid #00bcd4; height:448px;} 
+.blue-col h5{background-color:#00bcd4;}
+
+.comp-off-col{border:1px solid #795548; height:530px;}
+.comp-off-col h5{background-color:#795548;}
+.comp-off-col .text-circle{color:#795548}
+
+.nightdrop{border:1px solid #3f51b5; margin-bottom:10px}
+.nightdrop h5, .ParentBox h5{background-color:#3f51b5;}
+.nightdrop .text-circle, .ParentBox .text-circle{color:#3f51b5}
+
+.LeaveBoxes{border:1px solid #4caf50;height:395px}
+.LeaveBoxes h5 {background-color:#4caf50;}
+.LeaveBoxes .text-circle{color:#4caf50}
+
+.EarnedLeaveBox{border:1px solid #607d8b;height:365px}
+.EarnedLeaveBox h5{background-color:#607d8b;}
+.EarnedLeaveBox .text-circle{color:#607d8b}
+
+.CasualLeaveBox{border:1px solid #4caf50;height:310px}
+.CasualLeaveBox h5{background-color:#4caf50;}
+.CasualLeaveBox .text-circle{color:#4caf50}
+
+.maternityBox{border:1px solid #da291c;height:200px}
+.maternityBox h5{background-color:#da291c;}
+.maternityBox .text-circle{color:#da291c}
+
+.withoutLeave{border:1px solid #009688;width:100%}
+.withoutLeave h5{background-color:#009688;}
+
+.ParentBox{border:1px solid #3f51b5;height:250px}
+
+.parkingBox{border:1px solid #da291c;height:315px}
+.parkingBox h5{background-color:#da291c;}
+.parkingBox .text-circle{color:#da291c}
+
+ul.list-default li{padding:3px 0; list-style-type:disc;margin-left:15px}
+ul.list-list-default {margin-left:20px; list-style-type:disc}
+.list-table {margin-top:10px;border:1px solid #ccc;border-collapse:collapse;width:100%}
+.list-table td{border:1px solid #ccc;}
+.list-table td, .list-table th{padding:3px}
+.list-table th {background-color:#E7E7E7}
+.MinScroller {height:435px; overflow:auto}

@@ -1,0 +1,3 @@
+﻿#viewAdd .viewForm, #viewEdit .viewForm{
+	display:flex !important;
+}

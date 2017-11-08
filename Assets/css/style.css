@@ -1,0 +1,258 @@
+﻿body{font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;font-size:16px}
+a, .btn, input[type=button],button{outline:none !important;}
+a:visited{color:#0072c6 !important}		
+a.link-default {color:#333}
+a.btn{color:#fff !important}
+ul {list-style:none; margin:0; padding:0}
+	.home-carousel .item{padding:0px;background-color:#000}		
+.home-carousel > .item > img{opacity:0.65; width:100%}
+header{vertical-align:middle;padding:10px 0}
+ul.home-awards li{list-style:none;display:inline-block;font-size:19px;width:24.25%;vertical-align:top;padding:10px 20px;text-transform: uppercase;font-weight: normal;}
+ul.home-awards li,ul.nav-awards li{transition-property: background, border-radius;transition-duration: .5s;transition-timing-function: linear;}
+ul.home-awards li:hover,ul.nav-awards li:hover{border-radius:3px}
+ul.home-awards li a{color:#fff !important; text-decoration:none; outline:none;}
+ul.home-awards li:hover{background-color:#635D24;}
+ul.home-awards,#myCarousel-slider .item ul{margin:0;padding:0}
+.panel-yellow{background-color:#f6bb43!important;position:relative}
+.panel-blue{background-color:#2489bf!important}
+.panel,.panel-heading,.panel-group .panel+.panel{border-radius:0;border:0;margin:0}
+div.bluearrow-down,div.yellowarrow-down{margin: -11px auto;text-align: center;height: 22px;font-size: 26px;top: -1px;position: relative;z-index:999}
+div.bluearrow-down{color: #2489bf;;}
+div.yellowarrow-down{color: #f6bb43;}
+.panel-blue .home-awards li:hover{background-color:#0a6697; border-radius:3px}
+.panel-blue .home-awards li a{text-decoration:none
+color:#fff !important}
+.home-panel .panel-body{border-top:0!important}
+ul.nav-awards li.active a,ul.nav-awards li a:hover,.multiTabs .nav-tabs > li > a:focus{border-bottom:1px solid #8dc153;border-top:0;border-left:0;border-right:0;outline:none; background:none}
+ul.nav-awards li a:hover{background-color:transparent}
+#myCarousel-slider .item ul li, #myCarousel-picture  .item ul li {display:inline-block}
+#myCarousel-slider .item ul li img{width:140px;height:100%}
+#myCarousel-picture  .item ul li img{width:362px; height:245px}
+.row-fluid .span3{width:13.404255%;margin:0 3%}
+.row-fluid-picture .span3{width:45%;margin:0 1%}
+.carousel-control-left,.carousel-control-right{font-size:32px;color:#ccc;text-decoration:none!important}
+/*Announcements*/
+ul.nav-awards li.active a{position:relative; color:#448200 !important}
+ul.nav-awards li.active:after {content: "?";position: absolute;left: 50%;color: #8dc153;font-size: 15px;right: 50%;margin-top: -7px;font-family:'Glyphicons Halflings'}
+ul.nav-awards li{width:25%;font-size: 20px;text-align: center;position:relative;} 
+ul.nav-awards li a{color:#8cc152}
+.tab-announce {padding:10px}
+.nav-tabs > li{margin-bottom:-2px}
+/*look forward to*/
+.holidays h3,.polls h3, .mytickets h3, .social h3{font-style:italic; border-bottom:1px solid  #1D1D1D; padding-bottom:5px;font-weight:600;font-size:24px;margin-bottom:10px}
+.holidays h3, .social h3{color:#01b5f2;}
+.polls h3{color:#b62826;}
+.mytickets h3{color:#00b140;margin-top:30px}
+.awards-list li {list-style:none; display:inline-block; vertical-align:middle; padding:5.2541% 0;text-align:center;word-break: break-all;word-wrap: break-word;transition: opacity .25s ease-in-out;opacity: 1;}
+.awards-list li a{color:#fff;font-size:20px}
+.awards-list li:hover{opacity: 0.8;}
+.awards-list li:hover span{ visibility:hidden}
+.awards-list li.boq, .awards-list li.newsletter, h3.green{background-color:#8dc153}
+.awards-list li.boq:hover{background:url(../images/boq.png) #8dc153 no-repeat center center;}
+.awards-list li.newsletter:hover{background:url(../images/newsletter.png) #8dc153 no-repeat center center;}
+.awards-list li.award, .awards-list li.dart, h3.brown{background-color:#b78216}
+.awards-list li.award:hover{background:url(../images/excellence.png) #b78216 no-repeat center center;}
+.awards-list li.dart:hover{background:url(../images/dartboard.png) #b78216 no-repeat center center;}
+.awards-list li.vaward, .awards-list li.roles, h3.blue{background-color:#3baeda}
+.awards-list li.vaward:hover{background:url(../images/v-award.png) #3baeda no-repeat center center;}
+.awards-list li.roles:hover{background:url(../images/roles.png) #3baeda no-repeat center center;}
+.awards-list li.flash-card, .awards-list li.collaterals,h3.red{background-color:#b62826}
+.awards-list li.flash-card:hover{background:url(../images/flashcard.png) #b62826 no-repeat center center;}
+.awards-list li.collaterals:hover{background:url(../images/collateral.png) #b62826 no-repeat center center;}
+.awards-list li.trailblazers, .awards-list li.blogs{background-color:#8dc153} 
+.awards-list li.trailblazers:hover{background:url(../images/trailblazer.png) #8dc153 no-repeat center center;}
+.awards-list li.blogs:hover{background:url(../images/blogs.png) #8dc153 no-repeat center center;}
+.otherlist li {padding:4% 0}
+h1.text-center{margin:2% 0 3% 0;font-weight:100;font-size:44px}
+#myCarousel-slider ul li div.thumbnail{padding:0; border:0px}
+footer{background-color:#393e42; color:#fff;width:100%;display:table }
+footer a, footer a:visited{color:#acacac !important}
+footer a:hover{color:#fff !important}
+footer a:hover{color:#fff}
+footer ul li {padding:0px 0}
+footer table td{padding:5px}
+footer div.item {padding:0px !important}
+.divider{border-top:1px solid #33383d;border-bottom:1px solid #33383d;width:100%;height:3px; margin:10px 0; background:#2d3237}
+.plus{background-color: #3f3f3f;color: #fff;font-size: 24px;font-style: normal;border-radius: 50%;height: 24px;width: 24px;vertical-align: middle;text-align: center;line-height: 20px; display:inline-block}
+/*footer:before{color:#fff}
+footer:before{content:"?";position:absolute;left:46.4%;font-size:40px;margin-top:-16px}
+*/
+hr.blue, .blueline{border-top:1px solid #1b76a5; position:relative;margin:40px 0;}
+hr.blue:before, .blueline:before {content: "?";position: absolute;left: 50%;right: 50%;font-size: 12px;font-family: verdana;background: #2489bf;border: 1px solid #1b76a5;height: 32px;width: 32px;border-radius: 50%;line-height: 29px;text-align: center;color:#083D76;margin-top:-18px}
+.social-list li{width:25%;display: inline-block;margin: 0 -2px;}
+.whats-new li{padding:5px 0}
+.whats-new li a{color:inherit}
+.text-white, .carousel-caption .ng-binding, .text-center h1.text-white {color:#fff}	
+.carousel-caption .ng-binding{font-weight:600}		
+.carousel-caption h2.ng-binding{font-size:30px}
+div#accordion2 div.accordion-toggle, div#accordion3 div.accordion-toggle {border-bottom:1px solid #eee; background:none}
+div#accordion2 .panel-body, div#accordion3 .panel-body{border-top:0px}
+.panel-heading.accordion-toggle:after {
+/* symbol for "opening" panels */
+font-family:'Glyphicons Halflings';
+/* essential for enabling glyphicon */
+content:"\e114";
+/* adjust as needed, taken from bootstrap.css */
+float: right;position: relative;bottom: 23px;font-size: 11pt;
+/* adjust as needed */
+color: grey;
+/* adjust as needed */
+}
+.panel-heading.accordion-toggle.collapsed:after {
+/* symbol for "collapsed" panels */
+content:"\e113";
+/* adjust as needed, taken from bootstrap.css */
+}
+.panel-heading.accordion-toggle h4, ul.social-list li h1{font-weight:normal}
+.carousel-caption h1{font-size:50px}
+.updates {height:16px;width:16px; background-color:#b62826;border-radius:50%;display:inline-block; position:relative; margin:0px 0px 18px 10px}
+
+.navbar-default .navbar-toggle{background-color:#fff}
+.padding10px {padding:10px}
+
+
+/*small screen*/
+@media (max-width: 767px) {
+ul.home-awards li {width: 100%}
+ul.nav-awards li, .awards-list li a{font-size:80%}
+.carousel-caption h1, .carousel-caption h2, #myCarousel-slider ul li div.thumbnail h4{font-size:medium}
+#myCarousel-picture  .item ul li img{width:100%; height:100%}
+div.awards-list ul li.span3{display:block;width:100%; margin:0}
+}
+/* table#tblImpactingUser, .hideme{background-color:orange}		
+/* Overwriting CSS*/		
+.container-fluid{padding:0px !important}/*bootstrap overwrite*/		
+#s4-bodyContainer{padding-bottom:0px !important}		
+.search-box td{padding:0 0 0 15px}		
+#contentRow{background-color:#fafafa;border-top: 1px solid #d0d0ce;padding-top:0px !important}		
+#contentBox{margin:0px auto !important;}		
+.GridTable{width:100%;}		
+.GridTable th, .GridTable td{padding:4px;word-wrap: break-word;word-break: break-all; vertical-align:top}		
+.GridTable td, th.table-header, td.ms-paging, .FormTable td.ms-formlabel, .FormTable td.ms-formbody{border-bottom:1px solid #d0d0ce;border-top:1px solid #d0d0ce}		
+.GridTable, .FormTable td.ms-formlabel, .FormTable td.ms-formbody{background-color:#fff}		
+.GridTable tr:hover > td, td.ms-paging{background-color:#e2f7ff}		
+th.table-header table td{border:0px}		
+th.table-header{background-color:#e3e3e3;vertical-align:middle}		
+th.table-header {border-top:1px solid #d0d0ce;font-weight:600}		
+.ms-WPBorderBorderOnly{border:0px !important}		
+.ms-WPTitle{font-size: 1.3em!important;margin:10px 0 !important}		
+.tableBorder {width:1150px;margin:0px auto 5px auto}		
+.policy-button{background-color:#d9534f !important;color:#fff !important;padding:6px 12px !important;border-radius:3px;border:0px !important;font-size:14px !important;margin-left:0px !important		
+;margin-right:10px}		
+.policy-button:hover{background-color:#c9302c !important}		
+.FormTable td.ms-formlabel{padding-left:10px}		
+.cust-textbox {padding:6px 5px!important; margin-right:10px}		
+.padding10px{padding:10px}		
+.text-red{color:#da291c !important}		
+.text-green{color:#00b140 !important}		
+.input-width select{width:386px; }		
+.input-width input{width:366px;height:22px;}		
+.input-width input+img{height:22px;width:auto}		
+.ms-usereditor {width:386px !important}		
+.margintop10px {margin-top:10px !important}		
+.ng-scope .container{border-top:0px}		
+.ms-webpartzone-cell{margin-bottom:0px !important}		
+.ng-scope{background-color:#fff}		
+span.glyphicon-ok {color:inherit}		
+.mystyle-2.affix {top: 0px;z-index: 1000;position: fixed;background-color:#2489bf}		
+li.activetablist {background-color: #000;}		
+.affix {position: fixed;top: 0;width: 100%;z-index: 99;box-shadow: 0px 0px 3px rgba(0,0,0,0.6)}		
+.affix li {width: auto !important;padding: 10px !important;border-radius: 3px}		
+.affix li a {font-size: 15px;}		
+div[id^=bitwisediv] { background: #eaeaea;width: 90%;margin: 1% 0 1% 4.2%;}		
+.panel-grey{background-color:#f5f5f5;display:block;float:left;width:100%;padding:10px}		
+h3.green,h3.brown,h3.blue, h3.red{margin-bottom: 0px;padding: 10px;color: #fff;font-weight: normal;position:relative}		
+h3.green span.glyphicon,h3.brown span.glyphicon,h3.blue span.glyphicon, h3.red span.glyphicon{position:absolute;}		
+h3.green span.glyphicon{margin:-18px 0 0 5.2%; color:#8dc153}		
+h3.brown span.glyphicon{margin:-18px 0 0 27%; color:#b78216 }		
+h3.blue span.glyphicon{margin:-18px 0 0 48%; color:#3baeda }		
+h3.red span.glyphicon{margin:-18px 0 0 69%; color:#b62826 }		
+h3.trail span.glyphicon{margin:-18px 0 0 91%; color:#8dc153 }		
+.no-tbl-brd td{border:0px !important}		
+.button {display: block;width: 155%;height: 35px; background: #C11B17;padding: 10px;text-align: center;border-radius: 20px;color: white;font-weight: bold;float:left}
+
+/* navigation CSS please dont delete */
+.dfwp-list ul li:hover{background-color:red}
+.open{background-color:red}
+
+.dfwp-list{padding:0;}
+.dfwp-list ul li a{padding:0px 0 0px 10px }
+.dfwp-list ul li{border-bottom:1px solid #3b3b3b}
+.navmenu-nav span.glyphicon{padding-right:10px}
+
+
+.dfwp-list ul li div{padding:10px 0 10px 0 !important;}
+
+.navmenu-default .navmenu-nav li  div span a:hover{color: #fff !important;}
+.navmenu-default{color: #fff !important;}
+.dropdown-toggle span a{word-spacing: -8px;}
+
+/* navigation CSS please dont delete */
+
+/***IssueTracker Forms - Created and Modified info***/
+.ms-descriptiontext{font-size:13px !important;}
+.ms-descriptiontext table td{padding:2px;}
+/***IssueTracker Forms and Grids***/
+
+
+/***IssueTracker - ListViewWebParts**/
+.ms-listviewtable {width:100%;}
+.ms-listviewtable > tbody > tr > td{border-bottom:1px solid #d0d0ce !important;border-collapse:collapse;padding:3px}
+.ms-listviewtable th {background-color:#e3e3e3;border-bottom:1px solid #d0d0ce;border-top:1px solid #d0d0ce;font-weight:600;padding:3px}
+.ms-listviewtable th:hover{background-color:#d7efff !important}
+
+#onetIDListForm {width:1150px;margin:0px auto 5px auto}
+/***IssueTracker - ListViewWebParts**/
+
+/***Forms buttons***/
+input.policy-button[type='button'], input.policy-button[type='submit']{margin-top:5px !important; margin-bottom:5px !important;}
+/***Forms buttons***/
+
+/* Top button */
+
+
+.cd-top {
+  display: inline-block;
+  height: 54px;
+  width: 54px;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url(/SiteAssets/facelift/images/top-arrow.png) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+  border-radius:50%
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .7;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+/* Top button */
+
+
+#s4-workspace{
+	height:100vh;
+}

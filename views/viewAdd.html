@@ -1,0 +1,44 @@
+﻿<div id="viewAdd">
+    <h2><b>Add Record</b></h2>
+    <br>
+	<center>
+	<div class="form-group viewForm">
+       <label class="col-md-2 control-label">Song</label>
+       <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+             <input name="last_name" placeholder="Song Name" class="form-control" type="text" ng-model="song">
+          </div>
+       </div>
+    </div>
+    
+    <div class="form-group viewForm">
+       <label class="col-md-2 control-label">Artist</label>
+       <div class="col-md-4 selectContainer">
+          <div class="input-group">
+             <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+             
+             <!--<select name="artist" class="form-control selectpicker" ng-model="artist">
+                <option ng-repeat="artist in artists" value="$index">
+                	{{artist.Title}}
+                </option>
+             </select>-->
+             <select name="artist" class="form-control selectpicker" ng-model="artist" ng-options="artists.Title for artists in artists track by artists.Id">
+             	<option value="">Select Artist</option>
+             </select>
+             
+          </div>
+       </div>
+    </div>
+    
+    <div class="form-group">
+       <label class="col-md-2 control-label"></label>
+       <div class="col-md-4">
+          <br> 
+          <button type="button" ng-click="eSubmit()" class="btn btn-warning">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+          <button type="button" ng-click="eCancel()" class="btn btn-warning">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCancel <span class="glyphicon glyphicon-remove"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+       </div>
+    </div>
+            
+</center>       
+</div>

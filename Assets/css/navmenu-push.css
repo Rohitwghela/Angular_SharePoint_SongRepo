@@ -1,0 +1,50 @@
+﻿html, body {
+  height: 100%;
+}
+/*
+body {
+  padding: 50px 0 0 0;
+}
+*/
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+
+
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: block; /* force showing the toggle */
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 0;
+  }
+  .navbar {
+    right: auto;
+    background: none;
+    border: none;
+  }
+}
+
+
+/*Overwrite bootstrap menu*/
+.dropdown-menu {padding:0}
+.dropdown-menu > li > a {padding:10px 0 10px 33px !important}
+ul.dropdown-menu>li{border-bottom:1px solid #3b3b3b}
+.navmenu-nav span.glyphicon{padding-right:10px}
+
+
+
+
+
+
+
+
+
+
+
+
+

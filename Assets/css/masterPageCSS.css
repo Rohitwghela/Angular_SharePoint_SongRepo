@@ -1,0 +1,91 @@
+﻿.col-xs-2{margin-top: 7px;    margin-left: -30px;}
+h1{color:black !important}
+
+#s4-workspace{min-height: 100% !important}
+
+
+.ms-dlgTitleBtns {
+    margin-top: -10px;
+    margin-right: 0px !important;
+    height: 30px;
+    float: right;
+}
+
+.openDiscard,.mandatoryLeave{color:#DA291C !important}
+.resolvedInprogress{color:#00B140 !important}
+.waitingforFeedback{color:#E35205 !important}
+
+.btn-black{background:#000}
+
+ .footer {
+     background: #000;
+     padding: 0px 0px 50px;
+     display: table;
+     width: 100%;
+     font-size:12px;
+     bottom: 0px;
+ }
+ .footerLogo {
+     float: left;
+     padding-top: 25px;
+    padding-left: 50px;
+ }
+ 
+ .footermenus {
+     margin-left: 25%
+ }
+ 
+ .footermenus ul {
+     display: fixed;
+     margin: 0;
+     padding: 0;
+     list-style: outside none none;
+     font-size: 1.05em
+ }
+ 
+ .footermenus ul>li {
+     margin-right: 2%;
+     display: table;
+     font-weight: normal;
+     line-height: 20px
+ }
+ 
+ .footermenus ul li>ul {
+     display: table;
+     list-style: outside none none;
+     margin: 0;
+     padding: 0;
+     width: 165px
+ }
+ 
+ .footermenus ul a {
+     color: #fff !important;
+     font-size:medium
+ }
+ 
+ .footermenus ul li>ul li>a {
+     font-weight: normal
+ }
+
+
+/*Announcement */
+
+ul.nav-awards li.active a{position:relative; color:#da291c !important;font-weight:bold !important;}
+ul.nav-awards li.active:after {content: "";position: absolute;left: 50%;color: #000 !important;font-size: 15px;right: 50%;margin-top: -7px;font-family:'Glyphicons Halflings'}
+ul.nav-awards li{/*width:18%;*/font-size: 20px;text-align: center;position:relative;} /* width:25%*/
+ul.nav-awards li a{color:#000}
+/*ul.nav-awards li.active a,ul.nav-awards li a:hover,.multiTabs .nav-tabs > li > a:focus{border-bottom:1px solid #75787B;border-top:0;border-left:0;border-right:0;outline:none; background:none}*/
+.tab-announce {padding-top:10px;padding-left:10px;padding-bottom:0px;}
+.nav-tabs > li{margin-bottom:-2px}
+
+/*Announcement Ends Here*/
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>NG Project</title>
+    
+    <link rel="stylesheet" href="/sites/RohitW/SiteAssets/AngularProject/Assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="/sites/RohitW/SiteAssets/AngularProject/Assets/css/toastr.css" />
+    <link rel="stylesheet" href="/sites/RohitW/SiteAssets/AngularProject/Assets/css/view.css" />
+    
+    <script src="/sites/RohitW/SiteAssets/AngularProject/Assets/js/jquery-2.1.1.js"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/Assets/js/angular.min.js"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/Assets/js/angular-route.js"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/Assets/js/toastr.js"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/Assets/js/bootstrap.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/Assets/js/angular-youtube-embed.min.js"></script>
+    <script src="https://apis.google.com/js/client.js"></script>
+    
+    <script src="/sites/RohitW/SiteAssets/AngularProject/app/app.js"></script>
+    
+    <script src="/sites/RohitW/SiteAssets/AngularProject/app/services/restService.js"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/app/services/listService.js"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/app/services/addService.js"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/app/services/editService.js"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/app/services/addArtistService.js"></script>
+    
+    <script src="/sites/RohitW/SiteAssets/AngularProject/app/controllers/listController.js"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/app/controllers/addController.js"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/app/controllers/editController.js"></script>
+    <script src="/sites/RohitW/SiteAssets/AngularProject/app/controllers/addArtistController.js"></script>
+    
+</head>
+<body ng-app="MainContainer">
+
+	<!--<div ng-controller="MainController">
+		{{name}}
+		
+	</div>	-->
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#Items">Music Gallery</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class=""><a href="#Items">Songs</a></li>
+	      <li><a href="#Add">Add Song</a></li>
+	      <li><a href="#AddArtist">Add Artist</a></li>
+	    </ul>
+	  </div>
+	</nav>
+	
+	<div ng-view></div>
+
+</body>
+</html>
+
+
+
+
+
+

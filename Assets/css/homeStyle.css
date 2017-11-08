@@ -1,0 +1,62 @@
+﻿li.activetablist {
+	background-color: #000;
+}
+.ui-scrollpoint{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.6)
+}
+.affix li{
+	width: auto !important;
+	padding: 10px !important;
+	border-radius: 3px
+}
+.affix li a{
+	font-size: 15px;
+}
+
+.ui-scrollpoint{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.6)
+}
+.ui-scrollpoint li {
+	width: auto !important;
+	padding: 10px !important;
+	border-radius: 3px
+}
+.ui-scrollpoint li a {
+	font-size: 15px;
+}
+
+
+div[id^=bitwisediv] { background: #eaeaea;width: 90%;margin: 1% 0 1% 4.2%;}
+.panel-grey{background-color:#f5f5f5;display:block;float:left;width:100%;padding:10px}
+h3.green,h3.brown,h3.blue, h3.red{margin-bottom: 0px;padding: 10px;color: #fff;font-weight: normal;position:relative}
+h3.green{
+	background-color:#8dc153;
+}
+h3.brown{
+	background-color:#b78216;
+}
+
+h3.blue{
+	background-color:#3baeda ;
+}
+
+h3.red{
+	background-color:#b62826;
+}
+h3.green span.glyphicon,h3.brown span.glyphicon,h3.blue span.glyphicon, h3.red span.glyphicon{position:absolute;}
+h3.green span.glyphicon{margin:-18px 0 0 5.2%; color:#8dc153 !important}
+h3.brown span.glyphicon{margin:-18px 0 0 27%; color:#b78216 !important}
+h3.blue span.glyphicon{margin:-18px 0 0 48%; color:#3baeda !important}
+h3.red span.glyphicon{margin:-18px 0 0 69%; color:#b62826 !important}
+h3.trail span.glyphicon{margin:-18px 0 0 91%; color:#8dc153 !important}
+h3 {
+	font-size : 24px; !important;
+}
