@@ -29,7 +29,7 @@
     function deleteItemFailed(error){ debugger; }
 
 	$scope.playSong = function(obj){
-		gapi.client.setApiKey("AIzaSyDV4wP2dtq2qe38m15FJGBAyQAkVZhR1aY");
+		gapi.client.setApiKey(mygAPIKey);
 	    gapi.client.load("youtube", "v3", function() {
 	        // Youtube api is ready
 	        var request = gapi.client.youtube.search.list({
