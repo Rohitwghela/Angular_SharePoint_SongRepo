@@ -1,8 +1,0 @@
-﻿{
-    "d": {
-        "Suggestions": {
-            "results": [
-            ]
-        }
-    }
-}
